@@ -8,9 +8,9 @@
 	<h1>This is a database handler</h1>
 	<p>Want to signup or Login</p>
 	<form>
-		<button formaction="includes/login.inc.php"><p>Login</p></button>
+		<button formaction="login.inc.php"><p>Login</p></button>
 		<br>
-		<button formaction="includes/signup.inc.php"><p>Sign-Up</p></button>
+		<button formaction="signup.php"><p>Sign-Up</p></button>
 		<br>
 	</form>
 </body>

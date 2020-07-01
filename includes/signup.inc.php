@@ -11,7 +11,7 @@
 		VALUES ('$first', '$last', '$email', '$uid', '$pwd');";
 		mysqli_query($conn, $sql);
 		header("Location: ../index.php?signnup=success");
-	}
+	}else header("Location: ../signup.php?signnup=try+again");
 	
-	header("Location: ../signup.php?signnup=try+again");
+	
 	
