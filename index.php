@@ -8,7 +8,7 @@
 	<h1>This is a database handler</h1>
 	<p>Want to signup or Login</p>
 	<form>
-		<button formaction="login.inc.php"><p>Login</p></button>
+		<button formaction="login.php"><p>Login</p></button>
 		<br>
 		<button formaction="signup.php"><p>Sign-Up</p></button>
 		<br>
